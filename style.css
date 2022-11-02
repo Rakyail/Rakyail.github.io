@@ -1,6 +1,66 @@
-#profilfoto{
-    height: 100px;
-    height: 100px;
-    margin: 0%;
-    background-color: azure;
+nav{
+    font-size: 24px;
+    background-color:#f58d17;
 }
+
+body{
+    background-color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#f58d17;
+    line-height: 1.7;
+}
+
+
+a{
+    color:#222;
+    text-decoration: none;
+    transition: all 0.4s;
+
+}
+a:hover{
+    color: #f58d17;
+    font-size: 22px;
+
+}
+
+
+/* btn */
+.btn{
+
+ border-radius:  22px;
+    padding: 14px 38px;
+    
+}
+.btn-brand {
+    color:white;
+    background-color:#f58d17 ;
+    
+}
+.btn-brand:hover{
+    color:red;
+    background-color:black ;
+    
+}
+#kafedeparis{
+    font-family: fantasy;
+    
+    
+}
+#içalan{
+    background-image: url(/img/iç\ alan.jpg); background-repeat: no-repeat; background-size: cover;
+}
+/* hakkımızda bölümü */
+#yasar{
+color: #222;
+font-family: Georgia, 'Times New Roman';
+font-size: 20px;
+}
+#hak{
+    color: #222;
+    font-family: 'Gill Sans';
+}
+ #hakkımızdayazı{
+    color: black;
+
+ }
+ 
