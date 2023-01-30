@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.index-body{
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+/* heder navbar alt kısımı */
+.header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(15, 14, 14, 0.8)) ,url(arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 8px solid #222;
+}
+/* burada header yukseklık tanımlandı */
+.header-height{
+ height: 85vh;
+
+}
+/* ındextkı tum img wıdth tanımlandı */
+img{
+    max-width: 100%;
+    
+}
+
+section{
+    border-bottom: 7px solid #222;
+
+}
+/* alt kısımdakı dil sec bölümü */
+.genişlik{
+    width: 100px;
+    height: 8vh;
+}
+
+.accordion-button{
+    background-color: rgb(47, 27, 27);
+    margin-top: rem;
+    color: white;
+}
+.accordion-item{
+    border: none;
+    background-color:rgb(41, 30, 30);
+    color: white;
+}
+.accordion-button:not(.collapsed){
+    background-color:rgb(43, 32, 32);
+    color: white;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button::after{
+    background-image: url(plus-lg\ .svg);
+    filter: invert(100%) sepia(100%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(dash.svg);
+    filter: invert(100%) sepia(100%) saturate(13%);
+}
+h5{
+    color:#7777;
+}
+footer ul li a{
+    color: rgb(122, 122, 140);
+    text-decoration: none;
+}
+footer ul li{
+    margin-top: 1rem;
+}
+/* footer */
+footer{
+    border-style:solid;
+    border-color:#7777
+    border-width 6px;  
+}
+.form-control{
+    align-items: center;
+}

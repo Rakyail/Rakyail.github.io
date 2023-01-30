@@ -1,0 +1,57 @@
+body{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0, 0, 2, 0.7)), url('arkaplan.jpg');
+   min-height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content:space-around ;
+   flex-direction: column;
+   position: relative;
+} 
+.main_nav{
+   margin-top: 0;
+}
+.form{
+ color: #757575;
+}
+.form-contol{
+    background-color: #938787
+}
+a{
+   text-decoration: none  !important;
+   
+}
+/* form icin arka plan ayarlandı */
+.form_data{
+   background:linear-gradient(rgba(0,0,0,.7),rgba(0, 0, 2, 0.5));
+   padding: 4rem;
+   width: 100%;
+   
+
+}
+/* input için ayarlamalar yapıldı */
+
+.form-control:focus{
+   outline: 10 !important;
+   box-shadow: none!important;
+   transform: none;
+   
+}
+/* oturum aç alt kımında ki yazılar ayarlandı */
+.form_footer{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   
+}
+
+
+ 
+#buton{
+   background-color: rgb(225, 27, 27);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form h5{
+   font-size: small;
+}
