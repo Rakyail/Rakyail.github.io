@@ -1,0 +1,496 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Araç Kirala</title>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="jqueryui/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+<!--bolum1 başlangıc-->
+<section class="container-fluid bolum1">
+  
+	<div class="overlay"></div>
+  <div class="container"> 
+    <!--		navigasyon Başlangıc-->
+    <nav class="navbar navbar-expand-md navbar ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <a class="navbar-brand" href="#"> <span class="text-warning">ARAÇ</span> <span class="text-white">KİRALA</span> </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">AnaSayfa<span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#hakkımızda">Hakkımızda</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#fiyatlar">Fİyatlar</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#araçSeç">Senin Araban</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#">Blog</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#iletişim">İletişim</a> </li>
+        </ul>
+      </div>
+    </nav>
+    <!--		navigasyon bitiş-->
+    
+    <div class="row" >
+      <div class="col-md-6 text-white p-0 py-4">
+        <h6 class="display-9">ŞİMDİ<br>
+          Araç Kiralamak SENİN için Çok Kolay</h6>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus perferendis explicabo eligendi minus nostrum illum autem? Pariatur laborum voluptatum velit praesentium reiciendis, dolores aperiam nostrum minus voluptas quae id.</p>
+      <div class="col-md-4 offset-md-2 bg-white sagicerik">
+        <form action="" class="form-header">
+          <h3>Seyahat et</h3>
+          <div class="form-group">
+            <label for="">Alım Yeri</label>
+            <input type="text" class="form-control" placeholder="City, Airport, Station, etc">
+          </div>
+          <div class="d-flex">
+            <div class="form-group mr-2 flex-grow-1">
+              <label for="">Alım Tarihi</label>
+              <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+            </div>
+            <div class="form-group ml-2 flex-grow-1">
+              <label for="">Teslim Tarih</label>
+              <input type="text" class="form-control" id="book_off_date" placeholder="Date">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary w-100" value="Search Vehicle">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Bölüm1 Sonu-->
+<!--bölüm2 Başlangıç-->
+<section class="container bolum2" id="araçSeç">
+	<form action="">
+		<div class="row">
+			<div class="col-lg">
+				<div class="form-group">
+					<label for="">Model Seç</label>
+					<select name="model" id="" class="form-control">
+						<option value="1">Model 1</option>
+						<option value="2">Model 2</option>
+						<option value="3">Model 3</option>
+						<option value="4">Model 4</option>
+					</select>
+				</div>
+			
+			</div>
+			<div class="col-lg">
+				<div class="form-group">
+					<label for="">Marka Seç</label>
+					<select name="brand" id="" class="form-control">
+						<option value="1">Sedan</option>
+						<option value="2">Volvo</option>
+						<option value="3">Audi</option>
+						<option value="4">Porche</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-lg">
+			<div class="form-group">
+					<label for="">Model ylı</label>
+					<select name="yModel" id="" class="form-control">
+						<option value="1">Model 1</option>
+						<option value="2">Model 2</option>
+						<option value="3">Model 3</option>
+						<option value="4">Model 4</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-lg">
+			<div class="form-group">
+					<label for="">Ücret Bigisi</label>
+					<select name="price" id="" class="form-control">
+						<option value="1">Model 1</option>
+						<option value="2">Model 2</option>
+						<option value="3">Model 3</option>
+						<option value="4">Model 4</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-lg">
+				<div class="form-group">
+					<input type="submit" class="form-control btn btn-primary" value="Search">
+					
+				</div>
+			
+			</div>
+		
+		</div>
+	
+	</form>
+		
+</section>
+<!--Bölüm2 Sonu-->
+<!--	Bölüm3 Başlangıç-->
+<section class="container bolum3">
+	<p>Servislerimiz</p>
+	<h3>SERVİSLERİMİZ</h3>
+	
+	<div class="row">
+		<div class="col-sm-6 col-lg-3 etiket">
+			<i class="fas fa-tools"></i>
+			<h4> 24/7 Araç Desteği</h4>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint laudantium exercitationem quo corrupti harum incidunt cumque blanditiis aliquam illo, vero molestiae nam ut repellat et asperiores distinctio, temporibus iste error!</p>
+		</div>
+		<div class="col-sm-6 col-lg-3 etiket text-left">
+			<i class="fas fa-tools"></i>
+			<h4> 24/7 Müşteri Desteği</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sapiente, explicabo similique adipisci quae quisquam! Accusamus perferendis libero illum repellat dicta! Sit saepe repudiandae corrupti deleniti delectus, consequatur totam dolore!</p>
+		</div>
+		<div class="col-sm-6 col-lg-3 etiket text-left">
+			<i class="fas fa-tools"></i>
+			<h4> 24/7 Ödeme Kolaylığı</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestias incidunt cumque eveniet nam, doloribus cupiditate placeat, dignissimos et est rerum asperiores, voluptas necessitatibus tempore inventore quam. Reiciendis, maxime laborum?</p>
+		</div>
+		<div class="col-sm-6 col-lg-3 etiket text-left">
+			<i class="fas fa-tools"></i>
+			<h4> 24/7 Araç desteği</h4>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aut est harum in nihil minus voluptatum eum tempore libero? Quis fuga veniam blanditiis. Eum, reprehenderit maiores tempora reiciendis ipsa recusandae.</p>
+		</div>
+	
+	
+	</div>
+</section>
+	
+<!--	Bölüm3 Bitiş-->
+<!--	Bölüm4 Başlangıç-->
+
+<section class="container-fluid bolum4" id="fiyatlar">
+	<p>Fiyatlarımız</p>	
+	<h3>Arabını seç</h3>
+	<div class="row p-4">
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-1.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-2.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-3.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al/button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-4.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-1.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-2.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-3.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi Al</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-6 col-lg-3">
+			<div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-4.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$30</span>
+						<p class="from-day">
+							<span>GÜNLÜK</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Şimdi AL</button>
+					<button class="btn">Detaylar</button>
+				</div>
+			</div>
+		
+		</div>
+	
+	
+	</div>
+</section>
+<!--	Bölüm 4 Sonu -->
+<!--Bölüm 5 Başlangıç -->
+<section class="container-fluid bolum5">
+	<div class="overlay"></div>
+	<div class="container">
+		<p>Çalişma şekli</p>
+		<h2>Nasıl Çalişir</h2>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="icerik">
+					<div class="resim"><i class="fas fa-route"></i></div>
+					<h3>Konum Seç</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, consequuntur.</p>
+				</div>
+			
+			</div><div class="col-md-3">
+				<div class="icerik">
+					<div class="resim"><i class="fas fa-route"></i></div>
+					<h3>Konum Seç</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, deleniti.</p>
+				</div>
+			
+			</div>
+			<div class="col-md-3">
+				<div class="icerik">
+					<div class="resim"><i class="fas fa-route"></i></div>
+					<h3>Konum Seç</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, delectus!</p>
+				</div>
+			
+			</div>
+			<div class="col-md-3">
+				<div class="icerik">
+					<div class="resim"><i class="fas fa-route"></i></div>
+					<h3>Konum seç</h3>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, provident.</p>
+				</div>
+			
+			</div>
+			
+		</div>
+		
+		
+	</div>
+</section>
+<!--	Bölüm5 Sonu-->
+<!--	bölüm6 Başlangıç-->
+<section class="container bolum6" id="hakkımızda">
+	<h2>Mutlu Müşteriler</h2>
+	<div class="row">
+		<div class="col-md-4 mb-2">
+			<div class="card d-block p-3 shadow">
+				<img src="images/popugames.jpg" alt="">
+				<div class="card-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, animi.</p>
+					<span>Şube Müdürü</span>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-4 mb-2">
+			<div class="card d-block p-3 shadow">
+				<img src="images/rakyail.jpg" alt="">
+				<div class="card-body">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, blanditiis!</p>
+					<span> Şube Müdürü</span>
+				</div>
+			</div>
+		
+		</div>
+		<div class="col-md-4 mb-2">
+			<div class="card d-block p-3 shadow">
+				<img src="images/person_1.jpg" alt="">
+				<div class="card-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, nam!</p>
+					<span>Şube Müdürü</span>
+				</div>
+			</div>
+		
+		</div>
+	
+	
+	</div>
+</section>
+	
+<!--	Bölüm 6 Sonu------->
+<!--	Bölüm 7 Başlangıç -->
+
+<section class="container bolum7">
+	<div class="row">
+		<div class="col-md-6 resim" style="background: url('images/about.jpg')"></div>
+		<article class="col-md-6">
+			<div class="baslik">
+				<p>HAKKIMIZDA</p>
+				<h3>Hedefimiz Memnuniyet Vermek</h3>
+			</div>
+			<p class="icerik">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque laudantium, quae repellendus quam ea adipisci! Amet dolor mollitia nostrum nisi.</p>
+			<p class="icerik">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam quae, nulla ullam maiores praesentium pariatur corporis corrupti assumenda dolor, suscipit vel beatae nobis architecto consequatur natus animi commodi numquam..</p>
+			<button class="btn">Araç Ara</button>
+		</article>
+	</div>	
+</section>
+	
+<!--	Bölüm 7 Sonu------->
+<!--	Bölüm 8 Başlangıç -->
+
+<footer class="container-fluid" id="iletişim">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 mb-5">
+				<h3>Hakkımızda</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eligendi omnis asperiores neque, nesciunt, perferendis temporibus fugit eveniet aperiam expedita a doloremque dignissimos illo sapiente repudiandae totam maiores perspiciatis ut.</p>
+				<ul class="sosyalmedya">
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-3 mb-5">
+				<h3>Bilgilendirme</h3>
+				<ul class="footerliste">
+					<li><a href="">Hakkımızda</a></li>
+					<li><a href="">Servisler</a></li>
+					<li><a href="">Şartlar Ve Koşşullar</a></li>
+					
+				</ul>
+			
+			</div>
+			<div class="col-md-3 mb-5">
+				<h3>Müşteri Desteği</h3>
+				<ul class="footerliste">
+					<li><a href="">Hakkımızda</a></li>
+					<li><a href="">Servisler</a></li>
+					<li><a href="">Şartlar ve Koşullar</a></li>
+				</ul>
+			
+			</div>
+			<div class="col-md-3 mb-5">
+				<h3>Sorunuz mu var?</h3>
+				<ul class="footerliste">
+	                <li><i class="fas fa-map-marker-alt"></i><p>istanbul Turkıye, izmir Turkıye</p></li>
+	                <li><a href="#"><i class="fas fa-phone"></i><p>+98948508504</p></a></li>
+	                <li><a href="#"><i class="fas fa-envelope"></i><p>enginozdemir190505@gmail.com</p></a></li>
+	              </ul>
+			
+			</div>
+			
+		</div>
+		<div class="row lisans justify-content-center">Copyright ©2023</div>
+	
+	</div>	
+	
+	
+</footer>
+	
+	
+<script src="bootstrap/js/jquery-3.4.1.min.js"></script> 
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>	
+<script src="jscript.js"></script>
+</body>
+</html>
