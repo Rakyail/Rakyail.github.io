@@ -1,6 +1,6 @@
 $("#oturumac").click(function (e) { 
     e.preventDefault();
-    window.location.href="oturum.html"
+    window.location.href="index.html"
     
 });
 $("#button-addon2").click(function (e) { 
